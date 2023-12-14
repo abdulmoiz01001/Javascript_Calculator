@@ -7,6 +7,10 @@ body{
 
 .calculatorBody{
     width: 215px;
+    border: 2px solid red;
+    padding: 10px;
+    background: rgb(121,114,9);
+background: linear-gradient(90deg, rgba(121,114,9,1) 50%, rgba(2,0,36,1) 100%, rgba(0,212,255,1) 100%);
     
     /* border: 2px solid red; */
 }
@@ -25,7 +29,7 @@ body{
 
 .button:hover{
     transform: scale(1.1);
-    box-shadow: 10px 10px 0px rgb(132, 178, 13);
+    /* box-shadow: 10px 10px 0px rgb(132, 178, 13); */
 }
 input{
     min-width: 200px;
